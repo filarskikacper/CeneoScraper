@@ -19,10 +19,10 @@ do elementów złożonej struktury danych.
 |autor|author|span.user-post__author-name|
 |rekomendacja|recommendation|span.user-post__author-recomendation > em|
 |liczbę gwiazdek|stars|span.user-post__score-count|
-|treść opinii|content|div.user-post__test|
+|treść opinii|content|div.user-post__text|
 |listę zalet|pros|div.review-feature__item--positive|
 |listę wad|cons|div.review-feature__item--negative|
 |ile osób uznało opinię za przydatną|useful|button.vote-yes > span|
 |ile osób uznało opinię za nieprzydatną|unuseful|button.vote-no > span|
-|data wystawienia opinii|post_date|span.user-post__published > time:nth.child(1)['datetime']|
-|data zakupu produktu|purchase_date|span.user-post__published > time:nth.child(2)['datetime']|
+|data wystawienia opinii|post_date|span.user-post__published > time:nth-child(1)['datetime']|
+|data zakupu produktu|purchase_date|span.user-post__published > time:nth-child(2)['datetime']|
